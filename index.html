@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Duel 1V1 – Communauté & guides</title>
+<meta name="description" content="Le site de la communauté Duel 1V1.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="index">
+<header class="nav"><div class="wrap">
+  <a class="brand" href="index.html">DUEL <span>1V1</span></a>
+  <nav>
+    <a class="on" href="index.html" data-i18n="nav_home">Accueil</a>
+    <a href="guides.html" data-i18n="nav_guides">Guides</a>
+    <a href="wiki.html" data-i18n="nav_wiki">Encyclopédie</a>
+    <a href="crystal-keeper.html" data-i18n="nav_ck">Crystal Keeper</a>
+    <a href="#communaute" data-i18n="nav_discord">Discord</a>
+  </nav>
+</div></header>
+
+<div class="hero" style="--hero:url(hero.png)"><div class="wrap">
+  <h1>DUEL <span class="v">1V1</span></h1>
+  <p class="tag" data-i18n="hero_tag"></p>
+  <div class="btns">
+    <a class="btn primary" data-link="playUrl" data-i18n="btn_play" href="#" target="_blank" rel="noopener"></a>
+    <a class="btn ghost" href="guides.html" data-i18n="btn_guides"></a>
+  </div>
+</div></div>
+
+<section class="band" id="ck-new"><div class="wrap two" style="align-items:center">
+  <a href="crystal-keeper.html"><img class="mapimg" src="ck/cover.jpg" alt="Crystal Keeper"></a>
+  <div>
+    <h2 data-i18n="ck_new_h"></h2>
+    <p class="sub" data-i18n="ck_new_sub"></p>
+    <div class="btns" style="justify-content:flex-start">
+      <a class="btn primary" href="crystal-keeper.html" data-i18n="ck_new_btn"></a>
+      <a class="btn ghost" data-link="crystalUrl" data-i18n="ck_play" href="#" target="_blank" rel="noopener"></a>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2 data-i18n="game_h"></h2>
+  <p class="sub" data-i18n="game_sub"></p>
+  <div class="grid">
+    <div class="card"><div class="ico">💥</div><h3 data-i18n="c1t"></h3><p data-i18n="c1d"></p></div>
+    <div class="card"><div class="ico">🧑‍🚀</div><h3 data-i18n="c2t"></h3><p data-i18n="c2d"></p></div>
+    <div class="card"><div class="ico">🗺️</div><h3 data-i18n="c3t"></h3><p data-i18n="c3d"></p></div>
+    <div class="card"><div class="ico">🏆</div><h3 data-i18n="c4t"></h3><p data-i18n="c4d"></p></div>
+    <div class="card"><div class="ico">🛠️</div><h3 data-i18n="c5t"></h3><p data-i18n="c5d"></p></div>
+    <div class="card"><div class="ico">🤝</div><h3 data-i18n="c6t"></h3><p data-i18n="c6d"></p></div>
+  </div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <h2 data-i18n="ctl_h"></h2>
+  <p class="sub" data-i18n="ctl_sub"></p>
+  <div class="controls">
+    <div><span data-i18n="ctl_mouse"></span> <small data-i18n="ctl_aim"></small></div>
+    <div><kbd>Space</kbd> <small data-i18n="ctl_fire"></small></div>
+    <div><kbd>←</kbd> <kbd>→</kbd> <small data-i18n="ctl_move"></small></div>
+    <div><kbd>W</kbd> <small data-i18n="ctl_jump"></small></div>
+    <div><span data-i18n="ctl_rclick"></span> <small data-i18n="ctl_menu"></small></div>
+    <div><kbd>X</kbd> <small data-i18n="ctl_super"></small></div>
+    <div><kbd>1</kbd>–<kbd>9</kbd>, <kbd>0</kbd> <small data-i18n="ctl_quick"></small></div>
+    <div><kbd>P</kbd> / <kbd data-i18n="key_esc">Échap</kbd> <small data-i18n="ctl_pause"></small></div>
+  </div>
+</div></section>
+
+<section><div class="wrap two">
+  <div><h2 data-i18n="weapons_h"></h2><p class="sub"><span data-i18n="weapons_sub"></span> <a href="wiki.html#armes" data-i18n="see_all"></a></p><ul class="clean" id="weapons"></ul></div>
+  <div>
+    <h2 data-i18n="maps_h"></h2><p class="sub" data-i18n="maps_sub"></p><ul class="clean" id="maps"></ul>
+    <p style="margin-top:20px"><a class="btn ghost" href="wiki.html#personnages" data-i18n="see_chars"></a></p>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2 data-i18n="gal_h"></h2>
+  <p class="sub" data-i18n="gal_sub"></p>
+  <div class="gallery" id="gallery"></div>
+</div></section>
+
+<section class="band" id="communaute"><div class="wrap" style="text-align:center">
+  <h2 data-i18n="com_h"></h2>
+  <p class="sub" data-i18n="com_sub"></p>
+  <div class="btns">
+    <a class="btn primary" data-link="discordUrl" data-i18n="btn_discord" href="#" target="_blank" rel="noopener"></a>
+  </div>
+</div></section>
+
+<div class="lightbox" id="lb"><img alt=""></div>
+<footer><div class="wrap">© <span data-year></span> Mapo — Duel 1V1. <span data-i18n="footer"></span></div></footer>
+<script src="config.js"></script><script src="data.js"></script><script src="data-en.js"></script><script src="i18n.js"></script><script src="site.js"></script>
+</body>
+</html>

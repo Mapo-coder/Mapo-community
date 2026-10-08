@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Crystal Keeper – Mapo</title>
+<meta name="description" content="Crystal Keeper : un tower defense fantasy où l'on se bat aussi. Héros, tours, mondes, guides.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="crystal">
+<header class="nav"><div class="wrap">
+  <a class="brand" href="index.html">DUEL <span>1V1</span></a>
+  <nav>
+    <a href="index.html" data-i18n="nav_home">Accueil</a>
+    <a href="guides.html" data-i18n="nav_guides">Guides</a>
+    <a href="wiki.html" data-i18n="nav_wiki">Encyclopédie</a>
+    <a class="on" href="crystal-keeper.html" data-i18n="nav_ck">Crystal Keeper</a>
+    <a href="index.html#communaute" data-i18n="nav_discord">Discord</a>
+  </nav>
+</div></header>
+
+<div class="hero" style="--hero:url(ck/cover.jpg)"><div class="wrap">
+  <h1>CRYSTAL <span class="v">KEEPER</span></h1>
+  <p class="tag" data-i18n="ck_tag"></p>
+  <div class="btns">
+    <a class="btn primary" data-link="crystalUrl" data-i18n="ck_play" href="#" target="_blank" rel="noopener"></a>
+    <a class="btn ghost" href="#ck-guides-sec" data-i18n="ck_readguides"></a>
+  </div>
+</div></div>
+
+<section><div class="wrap">
+  <h2 data-i18n="ck_game_h"></h2>
+  <p class="sub" data-i18n="ck_game_sub"></p>
+  <div class="grid" id="ck-cards"></div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <h2 data-i18n="ck_ctl_h"></h2>
+  <p class="sub" data-i18n="ck_ctl_sub"></p>
+  <div class="controls" id="ck-controls"></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2 data-i18n="ck_heroes_h"></h2>
+  <p class="sub" data-i18n="ck_heroes_sub"></p>
+  <div class="grid" id="ck-heroes"></div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <h2 data-i18n="ck_towers_h"></h2>
+  <p class="sub" data-i18n="ck_towers_sub"></p>
+  <div class="grid" id="ck-towers"></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2 data-i18n="ck_worlds_h"></h2>
+  <p class="sub" data-i18n="ck_worlds_sub"></p>
+  <div class="grid" id="ck-worlds"></div>
+  <h3 style="margin-top:30px" data-i18n="ck_special_h"></h3>
+  <div class="grid" id="ck-special"></div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <h2 data-i18n="ck_events_h"></h2>
+  <p class="sub" data-i18n="ck_events_sub"></p>
+  <div class="grid" id="ck-events"></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2 data-i18n="ck_ach_h"></h2>
+  <p class="sub" data-i18n="ck_ach_sub"></p>
+  <div class="grid" id="ck-ach"></div>
+</div></section>
+
+<section class="band" id="ck-guides-sec"><div class="wrap">
+  <h2 data-i18n="ck_guides_h"></h2>
+  <p class="sub" data-i18n="ck_guides_sub"></p>
+  <div id="ck-guides"></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2 data-i18n="gal_h"></h2>
+  <p class="sub" data-i18n="gal_sub"></p>
+  <div class="gallery" id="gallery"></div>
+</div></section>
+
+<section class="band"><div class="wrap" style="text-align:center">
+  <h2 data-i18n="ck_end_h"></h2>
+  <p class="sub" data-i18n="ck_end_sub"></p>
+  <div class="btns">
+    <a class="btn primary" data-link="crystalUrl" data-i18n="ck_play" href="#" target="_blank" rel="noopener"></a>
+    <a class="btn ghost" data-link="discordUrl" data-i18n="btn_discord" href="#" target="_blank" rel="noopener"></a>
+    <a class="btn ghost" data-link="playUrl" data-i18n="ck_other" href="#" target="_blank" rel="noopener"></a>
+  </div>
+</div></section>
+
+<div class="lightbox" id="lb"><img alt=""></div>
+<footer><div class="wrap">© <span data-year></span> Mapo — Crystal Keeper. <span data-i18n="footer"></span></div></footer>
+<script src="config.js"></script><script src="data.js"></script><script src="data-en.js"></script><script src="ck-data.js"></script><script src="i18n.js"></script><script src="ck-page.js"></script><script src="site.js"></script>
+</body>
+</html>
