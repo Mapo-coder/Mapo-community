@@ -8,5 +8,5 @@ window.SITE = {
   discordUrl: "https://discord.gg/NthEtVDxXA",
   youtubeUrl: "",
   githubUrl: "",
-  contact: "paul.louis.bfs@gmail.com"
+  contact: ""
 };
